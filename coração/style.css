@@ -103,7 +103,7 @@ body {
 
 
 .botaosim {
-
+    margin-right:110px;
     font-family: arial black;
     margin-top: 35px;
     border: solid #FFFFFF;
@@ -114,8 +114,7 @@ body {
 }
 
 .botaonao {
-    right: 125px;
-    position: fixed;
+    position: absolute;
     cursor: pointer;
     font-family: arial black;
     margin-top: 35px;
