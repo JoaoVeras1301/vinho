@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+@keyframes fall {
+      to {
+        transform: translateY(110vh) rotate(360deg);
+        opacity: 0;
+      }
+
+    }
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    
+}
+
+ .heart {
+      position: fixed;
+      top: -50px;
+      font-size: 30px;
+      animation: fall linear infinite;
+      pointer-events: none;
+         z-index: -1;
+    }
+
+.box {
+    margin: 25vh 5vh 5vh;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vh;
+    height: 45vh;
+    background: linear-gradient(315deg, #e356ff 3%, #ff2da7 38%, #ff00f2 68%, #ea00ff 98%);
+    animation: gradient 5s ease infinite;
+    background-size: 400% 400%;
+    opacity: 90%;
+    box-shadow: 5px 15px 30px rgb(0, 0, 0, 0.4);
+}    
+
+.iniciar {
+    font-family: arial black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.botaoiniciar {
+
+    font-family: arial black;
+    margin-top: 35px;
+    border: solid #FFFFFF;
+    border-radius: 15px;
+    width: 100px;
+    height: 25px;
+    background-color: #FFFFFF;
+}
+
+.pergunta {
+    font-family: arial black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.boxpergunta {
+    margin: 25vh 5vh 5vh;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vh;
+    height: 45vh;
+    background: linear-gradient(315deg, #e356ff 3%, #ff2da7 38%, #ff00f2 68%, #ea00ff 98%);
+    animation: gradient 5s ease infinite;
+    background-size: 400% 400%;
+    opacity: 90%;
+    box-shadow: 5px 15px 30px rgb(0, 0, 0, 0.4);
+}   
+
+
+.botaosim {
+
+    font-family: arial black;
+    margin-top: 35px;
+    border: solid #FFFFFF;
+    border-radius: 15px;
+    width: 100px;
+    height: 25px;
+    background-color: #FFFFFF;
+}
+
+.botaonao {
+    position: fixed;
+    cursor: pointer;
+    font-family: arial black;
+    margin-top: 35px;
+    border: solid #FFFFFF;
+    border-radius: 15px;
+    width: 100px;
+    height: 25px;
+    background-color: #FFFFFF;
+
+}
