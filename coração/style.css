@@ -115,7 +115,7 @@ body {
 
 .botaonao {
     right: 125px;
-    position: absolute;
+    position: fixed;
     cursor: pointer;
     font-family: arial black;
     margin-top: 35px;
@@ -125,4 +125,14 @@ body {
     height: 25px;
     background-color: #FFFFFF;
 
+}
+
+.botaovoltar {
+    font-family: arial black;
+    margin-top: 35px;
+    border: solid #FFFFFF;
+    border-radius: 15px;
+    width: 100px;
+    height: 25px;
+    background-color: #FFFFFF;
 }
